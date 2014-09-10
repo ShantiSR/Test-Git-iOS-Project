@@ -21,6 +21,7 @@
 		E03E0C1819C0DFB400CE7328 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03E0BFA19C0DFB400CE7328 /* UIKit.framework */; };
 		E03E0C2019C0DFB400CE7328 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E03E0C1E19C0DFB400CE7328 /* InfoPlist.strings */; };
 		E03E0C2219C0DFB400CE7328 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E0C2119C0DFB400CE7328 /* Git_TestTests.m */; };
+		E03E0C2E19C0E20800CE7328 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E0C2D19C0E20800CE7328 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E03E0C1D19C0DFB400CE7328 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		E03E0C1F19C0DFB400CE7328 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E03E0C2119C0DFB400CE7328 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		E03E0C2C19C0E20800CE7328 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		E03E0C2D19C0E20800CE7328 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		E03E0BFC19C0DFB400CE7328 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				E03E0C2B19C0E1F300CE7328 /* Test */,
 				E03E0C0519C0DFB400CE7328 /* AppDelegate.h */,
 				E03E0C0619C0DFB400CE7328 /* AppDelegate.m */,
 				E03E0C0819C0DFB400CE7328 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				E03E0C1E19C0DFB400CE7328 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E03E0C2B19C0E1F300CE7328 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E03E0C2C19C0E20800CE7328 /* Test.h */,
+				E03E0C2D19C0E20800CE7328 /* Test.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E03E0C0D19C0DFB400CE7328 /* ViewController.m in Sources */,
+				E03E0C2E19C0E20800CE7328 /* Test.m in Sources */,
 				E03E0C0719C0DFB400CE7328 /* AppDelegate.m in Sources */,
 				E03E0C0319C0DFB400CE7328 /* main.m in Sources */,
 			);
